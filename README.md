@@ -3,6 +3,8 @@ SIR models on networks
 
 # Demo
 
+## One network
+
 Load the software: 
 
 ```R
@@ -37,7 +39,7 @@ which returns a `data.frame`:
 1 0.3575105 0.04941228 Erdos-Renyi (gnm) graph      100    1000
 ```
 
-# Many networks
+## Many networks
 
 Create a list of graphs: 
 
