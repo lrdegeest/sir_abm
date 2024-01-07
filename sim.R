@@ -29,7 +29,7 @@ sir_abm = function(network,
   #'
   #' @examples
   #' # Example usage:
-  #' result <- sir_abm2(my_network, transmission_prob = 0.02, recovery_prob = 0.01, vaccine_effectiveness = 0.5, sim_steps = 100, plot = TRUE)
+  #' result <- sir_abm(my_network, transmission_prob = 0.02, recovery_prob = 0.01, vaccine_effectiveness = 0.5, sim_steps = 100, plot = TRUE)
   #'
   #' @import ggplot2
   #' @import survival
