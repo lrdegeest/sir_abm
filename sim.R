@@ -31,8 +31,6 @@ sir_abm = function(network,
   #' # Example usage:
   #' result <- sir_abm(my_network, transmission_prob = 0.02, recovery_prob = 0.01, vaccine_effectiveness = 0.5, sim_steps = 100, plot = TRUE)
   #'
-  #' @import ggplot2
-  #' @import survival
   #' @export
   #' 
   # get the number of agents
