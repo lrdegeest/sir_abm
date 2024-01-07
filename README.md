@@ -60,7 +60,7 @@ This way you can go back and collect any features of the networks after the simu
 Then run the simulations (100 graphs took about 20 seconds to run): 
 
 ```R
-er_list = lapply(er_graphs, sir_abm)
+er_list = run_sir(er_graphs) # run_sir() shows a progress bar and returns a list
 ```
 
 and combine everything into a `data.frame`:
